@@ -1,0 +1,39 @@
+my_project/
+├── my_project/
+│   ├── __init__.py
+│   ├── config/ 
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── config.yaml
+│   ├── data/
+│   │   ├── __init__.py
+│   │   ├── datasets.py
+│   │   ├── datamodules.py
+│   │   └── collate.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── model_stt4.py
+│   │   └── model_utils.py
+│   ├── tokenizers/
+│   │   ├── __init__.py
+│   │   └── bioseq_tokenizer.py
+│   ├── trainer/
+│   │   ├── __init__.py
+│   │   ├── trainer.py
+│   │   └── trainer_utils.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── load_model.py
+│   │   └── utils.py
+├── scripts/
+│   ├── finetuning.py
+│   ├── evaluate.py
+│   ├── inference.py
+│   └── ...
+├── tests/
+│   ├── __init__.py
+│   ├── test_trainer.py
+│   ├── test_datasets.py
+│   └── ... (other unit tests)
+├── setup.py
+└── requirements.txt

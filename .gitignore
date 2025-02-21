@@ -1,0 +1,6 @@
+*.pyc
+*.pt
+*.log
+*.wandb
+scripts/wandb*
+training_data*
